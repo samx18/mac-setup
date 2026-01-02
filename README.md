@@ -1,3 +1,5 @@
+# Mac Setup for AI Development & Data Science
+
 My macbook setup for AI and Data Science development in 2026. A lot has changed in AI development since I set up my last macbook pro, and all of the tools below are based on how my workflow as evolved. As such this is highly personal to my workflow and yours might be different.
 ## The Package Manager
 ### Homebrew
