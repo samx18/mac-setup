@@ -5,7 +5,7 @@
 My macbook setup for AI and Data Science development in 2026. A lot has changed in AI development since I set up my last macbook pro, and all of the tools below are based on how my workflow as evolved. As such this is highly personal to my workflow and yours might be different.
 ## The Package Manager
 ### Homebrew
-The Mac does not great official package and Homebrew is the first thing I have installed on a mac 
+The Mac does not have a great official package and Homebrew is the first thing I have installed on a mac 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -28,7 +28,7 @@ source ~/.zshrc
 
 ## Terminal
 ### Ghostty
-In 2025, I switched from iTerm to Ghostty since its fast lightweight and has everything I need without the distractions.
+In 2025, I switched from iTerm to Ghostty. It's fast, lightweight and has everything I need without the distractions.
 You can install it via the universal binary @ - https://ghostty.org/download or a community maintained package via homebrew
 ### Powerline Fonts
 Optional, I like it for my CLI use
@@ -44,7 +44,7 @@ I like the zsh shell and "oh-my-zsh" adds punch to it the base zsh shell
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-``
+
 Lookup the .zshrc in the .dotfiles for additional custom settings
 ### iTerm
 While I don't actively use iterm, but I have it installed via the official binary and with the following default profile settings
@@ -95,7 +95,7 @@ Privacy Badger - https://privacybadger.org/
 
 
 ## Containers
-I love docker, but docker on Mac is not the most efficient. **Orbstack** is a faster much more efficient way to run containers on Mac with support for Docker commands. Easy install via Homebrew
+I love docker, but docker on Mac is not the most efficient. **Orbstack** is a faster and a much more efficient way to run containers on Mac with support for Docker commands. Easy install via Homebrew
 ```
 brew install orbstack
 orb start
